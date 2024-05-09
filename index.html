@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Medical Clinic</title>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<link rel="stylesheet" href="home.css">
+</head>
+<body>
+<header>
+    <div class="logo">
+        <img src="C:\Users\WORK\Downloads\NexusMedicalClinicLogobyDesigner.png" alt="Medical Clinic Logo">
+    </div>
+    <div class="intro">
+        <h1>NEXUS MEDICAL</h1>
+        <p>Welcome to the official website for the Nexus medical hospital. </p>
+    </div>
+</header>
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="doctors.html">Doctors</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="blog.html">Blog</a></li>
+      
+    </ul>
+</nav>
+<main>
+    <section id="slideshow">
+        <div class="slide"><img src="C:\Users\WORK\Downloads\pexels-pixabay-207601.jpg" alt="Slide 1"></div>
+        <div class="slide"><img src="C:\Users\WORK\Downloads\pexels-pixabay-356040.jpg"alt="Slide 2"></div>
+        <div class="slide"><img src="C:\Users\WORK\Downloads\pexels-1222300-2324837.jpg" alt="Slide 3"></div>
+    </section>
+    <section id="services">
+        <h2>Go to the contact page to book an appointment for the below services.</h2>
+        <ul>
+            <li>General Medicine</li>
+            <li>Cardiology</li>
+            <li>Dermatology</li>
+            <li>General Doctor</li>
+        </ul>
+    </section>
+    <section id="doctors">
+        <h2>Meet Our Doctors</h2>
+        <div class="doctor">
+            <img src="C:\Users\WORK\Downloads\Untitled design (2).png" alt="Doctor Name">
+            <h3>Dr. Lilly</h3>
+            <p>Specialty: Cardiology</p>
+        </div>
+        <div class="doctor">
+            <img src="C:\Users\WORK\Downloads\1675.jpg" alt="Doctor Name">
+            <h3>Dr. James</h3>
+            <p>Specialty: Dermatology</p>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Medical Clinic. All rights reserved.</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $('#slideshow').slick({
+            autoplay: true,
+            autoplaySpeed: 3000,
+            dots: true,
+            arrows: false,
+            infinite: true,
+            speed: 1000,
+            fade: true,
+            cssEase: 'linear'
+        });
+    });
+</script>
+</body>
+</html>
+
+</main>
+<footer>
+    <p>&copy; 2020 Medical Clinic. All rights reserved.</p>
+</footer>
+</body>
+</html>
